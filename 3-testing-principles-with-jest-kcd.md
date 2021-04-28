@@ -2,6 +2,26 @@
 
 [Frontend Masters: Testing Principles by KCD](https://frontendmasters.com/courses/testing-practices-principles)
 
+- [Testing](#testing)
+  * [Types of bugs](#types-of-bugs)
+  * [How to prevent bugs?](#how-to-prevent-bugs-)
+  * [What is a Javascript Test?](#what-is-a-javascript-test-)
+  * [Format of a test function](#format-of-a-test-function)
+  * [Fundamentals of an assertion library](#fundamentals-of-an-assertion-library)
+  * [Jest framework](#jest-framework)
+  * [Mocks in Jest](#mocks-in-jest)
+  * [An important principle of testing](#an-important-principle-of-testing)
+  * [Process of testing (writing a test)](#process-of-testing--writing-a-test-)
+  * [Creating test factories](#creating-test-factories)
+  * [Async tests](#async-tests)
+  * [Where should we place our tests?](#where-should-we-place-our-tests-)
+  * [Monkey Patching and Mocking](#monkey-patching-and-mocking)
+  * [Test object factories](#test-object-factories)
+  * [Test Driven Development (TDD)](#test-driven-development--tdd-)
+    + [Benefits of TDD](#benefits-of-tdd)
+    + [Where should we use and not use TDD?](#where-should-we-use-and-not-use-tdd-)
+    + [Readme Driven Development (RDD)](#readme-driven-development--rdd-)
+
 ## Types of bugs
 
 1. Security errors
