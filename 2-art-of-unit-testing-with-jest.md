@@ -941,5 +941,3 @@ If you want to pass in an object and maintain the structure of the fake object d
 Both the production and test code will implement (`implements`) the interface for the dependency and test fake for it, respectively. The errors or mismatches are caught immediately at build i.e compile time without waiting for tests to run!
 
 There are many other good reasons to use Typescript as well, google them!
-
-[TODO]
