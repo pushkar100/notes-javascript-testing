@@ -14,7 +14,7 @@
   * [Matchers](#matchers)
     + [Comparing numbers](#comparing-numbers)
     + [Comparing floating point numbers](#comparing-floating-point-numbers)
-    + [Matching strings & arrays](#matching-strings---arrays)
+    + [Matching strings and arrays](#matching-strings-and-arrays)
     + [Match exceptions](#match-exceptions)
   * [Testing asynchronous code](#testing-asynchronous-code)
       - [Testing promises](#testing-promises)
@@ -88,7 +88,7 @@ Due to an error in the IEEE standard used, the floating point numbers have minor
     - `expect(0.1 + 0.2).toBeCloseTo(0.3)` and the test passes
     - `expect(0.1 + 0.2).toBeCloseTo(0.4)` and the test fails
 
-### Matching strings & arrays
+### Matching strings and arrays
 
 13. **`toMatch()`**: Matches a string. Can take either a string or a regular expression to test the string against
     - `expect('The sky is blue!').toMatch('blue')` and the test passes
@@ -101,7 +101,8 @@ Due to an error in the IEEE standard used, the floating point numbers have minor
     - `expect('The sky is blue!').toContain('bluge')` and the test fails
     - Alternate: 
       - **`toContainEqual()`**: Matches an element of an array with `==` (i.e only by value)
-      - Use it to test any non-primitive values contained as an element of an array
+      - Use it to test any non-primitive values contained as an element of an array (i.e objects)
+      - `expect([1, 2, { a: 5 }]).toContain({ a: 5 })` and the test passes
 
 ### Match exceptions 
 
