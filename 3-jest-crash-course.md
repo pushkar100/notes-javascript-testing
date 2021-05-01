@@ -2,6 +2,14 @@
 
 [Coursera Link](https://www.coursera.org/learn/unit-testing-in-jest)
 
+**Install Jest:**
+
+- `npm i -D jest`
+
+**Setup a basic config file (optional)**
+
+- `npx jest --init`
+
 - [Jest Matchers, Async tests, & Mocking](#jest-matchers--async-tests----mocking)
   * [Matchers](#matchers)
     + [Comparing numbers](#comparing-numbers)
