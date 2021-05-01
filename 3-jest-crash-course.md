@@ -99,6 +99,9 @@ Due to an error in the IEEE standard used, the floating point numbers have minor
     - `expect(['red', 'blue', 'orange']).toContain('violet')`and the test fails
     - `expect('The sky is blue!').toContain('blue')` and the test passes
     - `expect('The sky is blue!').toContain('bluge')` and the test fails
+    - Alternate: 
+      - **`toContainEqual()`**: Matches an element of an array with `==` (i.e only by value)
+      - Use it to test any non-primitive values contained as an element of an array
 
 ### Match exceptions 
 
