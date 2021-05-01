@@ -26,6 +26,7 @@
       - [Mock the return value](#mock-the-return-value)
       - [Mocking promise resolutions](#mocking-promise-resolutions)
       - [The mock property](#the-mock-property)
+      - [Mocking implementations](#mocking-implementations)
       - [Mocking entire modules](#mocking-entire-modules)
     + [Timer mocks](#timer-mocks)
       - [Fast forwarding time](#fast-forwarding-time)
